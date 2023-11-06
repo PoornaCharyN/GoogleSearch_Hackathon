@@ -1,0 +1,99 @@
+@use "sass:map";
+$green: #667f1e;
+$green1: #008000;
+$gray: #666;
+$darkGray: #333333;
+$lightGray: #F4F4F4;
+$lightColor01:#9C9C9C;
+$mediumGrayColor: #777777;
+$white: #fff;
+$black: #000000;
+$borderGray: #D3D3D3;
+$gray01: #F7F7F7;
+$gray02: #F0F0F0;
+$gray03: #E5E5E5;
+$gray04: #D3D3D3;
+$gray05: #C0C0C0;
+$gray06: #A0A0A0;
+$gray07: #838383;
+$gray08: #686868;
+$gray09: #474747;
+$gray10: #252525;
+$alertInfo:#0B64CD;
+$alertError:#E3051C;
+$selectBlueO1:#34BBF3;
+$success: #69940E;
+$royalNavyBlue: #0B64CD;
+
+$sonestaTheme: (
+    st-lightestGray: #efefef,
+    st-lightGray: #8E908F,
+    st-mediumGray: #777,
+    st-mediumGray01: #707070,
+    st-darkGray: #333333,
+    st-black: #000000,
+    st-blue: #6A9DB4,
+    st-darkGray1: #4A4A4A,
+    st-disabled: #C0C0C0
+);
+$travelPassTheme: (
+    primary: #F15858,
+    teal: #04838C,
+    navy: #072C4C,
+    orange: #E37F1C,
+    blue: #6A9D84
+);
+$sonestaSelect: (
+    primary: #527281,
+    primary1: #fdba2a,
+    secondary1: #f37221,
+    secondary2: #009bdb,
+    secondary3: #002957
+);
+$sonestaES: (
+    primary: #3B6E8F,
+    primary1: #E37F1C,
+    secondary1: #EDC21C,
+    secondary2: #4CADEA,
+    secondary3: #BB7546,
+    secondary4: #4CADEA,
+    secondary5: #275378,
+    secondary6: #000000
+);
+$sonestaSS: (
+    primary: #3B6E8F,
+    primary1: #E37F1C
+);
+$sonestaRoyal: (
+    primary: #333333,
+    primary1: #8E908F,
+    secondary1: #000000,
+    secondary2: #777
+);
+$sonestaHotelResorts: (
+    primary: #333333,
+    primary1: #8E908F,
+    secondary1: #000000,
+    secondary2: #777
+);
+$primary: map.get($sonestaTheme, "st-mediumGray01");
+$secondary: map.get($sonestaTheme, "st-darkGray");
+$lightColor: map.get($sonestaTheme, "st-lightGray");
+$lightestColor: map.get($sonestaTheme, "st-lightestGray");
+$darkColor: map.get($sonestaTheme, "st-black");
+
+$borderColor: #E0E0E0;
+
+
+$theme: (
+    primaryColor: map.get($sonestaTheme, "st-mediumGray01"),
+    primaryDarkColor: map.get($sonestaTheme, "st-darkGray"),
+    lightColor: map.get($sonestaTheme, "st-lightGray"),
+
+);
+
+$primarySonesta: (
+    mediumGrayColor: #777777,
+    lightGrayColor: #8E908F,
+    lightGrayColor01: #707070,
+);

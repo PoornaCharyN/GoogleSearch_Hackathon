@@ -1,0 +1,14 @@
+export const convertArrayToObject = (array, key) => {
+  const initialValue = {}
+  if (Array.isArray(array)) {
+    return array.reduce((obj, item) => {
+      return {
+        ...obj,
+        [item[key]]: item,
+      }
+    }, initialValue)
+  } else {
+    return initialValue
+  }
+}
+
