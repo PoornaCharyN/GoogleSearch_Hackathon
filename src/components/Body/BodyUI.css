@@ -1,0 +1,90 @@
+html {
+  font-size: 1rem;
+  text-align: center;
+}
+
+@include media-breakpoint-up(sm) {
+  .typograph-container {
+    font-size: 1.2rem;
+    text-align: center
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .typograph-container {
+    font-size: 1.4rem;
+    text-align: center
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .typograph-container {
+    font-size: 1.6rem;
+    text-align: center
+  }
+}
+.text-header{
+    text-align: center;
+    font-weight: bolder;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+#hover-image:hover {
+    transform: scale(1.05); /* Slightly zoom in the image */
+    transition: transform 0.3s; /* Add a smooth transition animation */
+  }
+
+.card{
+    padding: 1px;
+}
+
+.card-img-top{
+    margin-bottom: 0px
+}
+
+.card-body{
+    /* padding: 1px!important; */
+    font-weight: bolder;
+}
+.card-text{
+    margin: 1px!important;
+}
+
+.location-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-content {
+    flex: 1; /* Takes up the available space on the left */
+  }
+  
+  .right-content {
+    width: 20px; /* Set the width as needed for the location icon */
+    height: 20px; /* Set the height as needed for the location icon */
+  }
+  
+  /* Additional styling for the card if necessary */
+  
+  .main-container-bg{
+border:0px solid red;
+width: 100%;
+padding: 20px;
+height: 110%;
+background-color: #E5F4F7;
+border-radius: 20px;
+  }
+
+  .row{
+    margin: 0px!important;
+  }
