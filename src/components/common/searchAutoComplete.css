@@ -1,0 +1,63 @@
+.autoSearch-wrapper {
+    width: 200px; /* Adjust the width as needed */
+    margin: 0 auto; /* Adjust the margin as needed */
+    position: relative;
+}
+
+.input-container {
+    position: relative;
+}
+
+.auto-search-input {
+    width: calc(100% - 30px); /* Adjust the width considering the icon size and spacing */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-right: 50px; /* Adjust the value to accommodate the icons */
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .form-control:focus {
+    border-color: white !important;
+    border-bottom: 2px solid skyblue !important; /* Change the color as needed */
+    box-shadow: none !important;
+    
+
+}
+.form-control::placeholder {
+    font-size: 14px; /* Adjust the placeholder font size as needed */
+    font-weight: 600;
+}
+.auto-search-input:focus {
+    border-bottom: 2px solid black; /* Change the color as needed */
+}
+.icon-container{
+    display: flex;
+    gap:10px
+}
+.edit-icon {
+    position: absolute;
+    width: 25px;
+    right: 35px; /* Adjust the position as needed */
+    top: 50%; /* Adjust the position as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding-right: 10px;
+}
+.search-icon {
+    position: absolute;
+    width: 25px;
+    right: 0px; /* Adjust the position as needed */
+    top: 50%; /* Adjust the position as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding-right: 10px;
+}

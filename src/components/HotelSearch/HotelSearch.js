@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSwimmer, faWifi } from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'react-bootstrap';
 import "./hotelSearch.css"
+import SearchAutoComplete from '../common/SearchAutoComplete';
 
 const HotelSearchPage = () => {
     return (
@@ -12,7 +13,7 @@ const HotelSearchPage = () => {
                     <Card className='card'>
                         <CardBody>
                             <Row>
-                                <Col md={3}>
+                                <Col md={4}>
                                     <div className='card-left'>
                                          <div className='facilities-heading'>
                                          <h6>Facilities</h6>
@@ -39,13 +40,21 @@ const HotelSearchPage = () => {
 
                                     </div>
                                 </Col>
-                                <Col md={6}>
-                                    {/* <div className='card-right'>
-                                    <h6>Hotels For You</h6>
-                                    <CardSubtitle>5 Days 6 Nights</CardSubtitle>
-                                    <CardText>USD $506.00</CardText>
-                                    <CardText>150 Results</CardText>
-                                    </div> */}
+                                <Col md={3}>
+                                    <div className='card-center'>
+                                        <div>
+                                            Hotels for you 
+                                        </div>
+                                    </div>
+                                 
+                                </Col>
+                                <Col md={5}>
+                                    <div className='card-riht'>
+                                        <div className='search'>
+                                          <SearchAutoComplete/>
+                                        </div>
+                                    </div>
+                                 
                                 </Col>
                             </Row>
 
