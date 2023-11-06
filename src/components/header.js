@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
-      background: 'black'
+      background: 'white'
     }}
   >
     <Link
@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       style={{
         fontSize: `var(--font-sm)`,
         textDecoration: `none`,
-        color:'white'
+        color:'black'
       }}
     >
       {siteTitle}

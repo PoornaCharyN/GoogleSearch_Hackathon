@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import "../components/index.module.css"
 import HotelCard from "../components/HotelCard"
 import { fetchHotels } from "../services/core"
+import { HotelAgencyHeader } from "../components/Hotel/HotelAgencyHeader"
 
 const getHighlightedText = (text, highlight) => {
   // Split on highlight term and include term into parts, ignore case
@@ -131,7 +132,10 @@ const IndexPage = () => {
   return (
     <Layout>
       <div className="container mt-5">
-        <div className="row mb-4">
+        <HotelAgencyHeader/>
+        
+        
+        {/* <div className="row mb-4">
           <div className="col-md-10">
             <div className="form-group">
               <Autosuggest
@@ -164,7 +168,7 @@ const IndexPage = () => {
           {hotels.map(hotel => (
             <HotelCard hotel={hotel} key={hotel.id} />
           ))}
-        </div>
+        </div> */}
       </div>
     </Layout>
   )

@@ -24,6 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <div  className="container">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
@@ -41,6 +42,7 @@ const Layout = ({ children }) => {
           }}
         >
         </footer>
+      </div>
       </div>
     </>
   )
