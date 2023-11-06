@@ -12,24 +12,27 @@ const HotelSearchPage = () => {
                     <Card className='card'>
                         <CardBody>
                             <Row>
-                                <Col md={4}>
+                                <Col md={3}>
                                     <div className='card-left'>
-                                        <h6>Facilities</h6>
+                                         <div className='facilities-heading'>
+                                         <h6>Facilities</h6>
+                                         <p>seemore</p>
+                                         </div>
                                         <div className='facilities'>
-                                            <div className='icons'>
-                                            <FontAwesomeIcon color='black' icon={faSwimmer}  />
+                                            <div className='icons text-nowrap'>
+                                            <FontAwesomeIcon color='lightblue' icon={faSwimmer}  />
                                                 Swimming
                                             </div>
-                                            <div className='icons'>
-                                            <FontAwesomeIcon color='black' icon={faWifi}  />
+                                            <div className='icons text-nowrap'>
+                                            <FontAwesomeIcon color='maroon' icon={faWifi}  />
                                                 Wi-Fi
                                             </div>
-                                            <div className='icons'>
-                                            <FontAwesomeIcon color='black' icon={faSwimmer}  />
+                                            <div className='icons text-nowrap'>
+                                            <FontAwesomeIcon color='lightgreen' icon={faSwimmer}  />
                                                 AC
                                             </div>
-                                            <div className='icons'>
-                                            <FontAwesomeIcon color='black' icon={faSwimmer}  />
+                                            <div className='icons text-nowrap'>
+                                            <FontAwesomeIcon color='orange' icon={faSwimmer}  />
                                                 Dinner
                                             </div>
                                         </div>
