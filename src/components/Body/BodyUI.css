@@ -60,7 +60,7 @@ html {
     position: relative;
 }
 
-.card-body {
+.card-body-item {
     display: flex;
     justify-content: space-between;
   }

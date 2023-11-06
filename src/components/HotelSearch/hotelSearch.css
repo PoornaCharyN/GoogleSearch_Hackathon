@@ -1,13 +1,9 @@
-.card {
-    padding: 24px 9px 24px 9px;
-}
-
 .card-left .facilities {
     list-style: none;
     display: flex;
     gap: 35px;
     margin: 0;
-
+    
 }
 
 .card-right2 .facilities {
@@ -54,10 +50,10 @@
     color: orange;
     cursor: pointer;
     margin-top: 6px;
-    margin-right: 87px;
+    margin-right: 106px;
 }
 
-.card-right {
+.card-right{
     display: flex;
     /* direction: unset; */
     flex-direction: column;
@@ -66,19 +62,19 @@
     justify-content: space-around;
 }
 
-.card-left {
+.card-left{
     margin-left: 26px;
     margin-top: 10px;
     /* margin-bottom: -14px; */
     /* border: 1px solid lightcyan; */
 }
 
-.autoSearchWrapper {
+.autoSearchWrapper{
     width: 200px;
     margin: -13px 0px 0px 11rem;
     position: relative;
 }
 
-.icons .img {
-    margin-bottom: 2px !important;
+.icons .img{
+    margin-bottom: 2px!important;
 }
