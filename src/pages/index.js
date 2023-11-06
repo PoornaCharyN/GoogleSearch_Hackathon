@@ -6,6 +6,8 @@ import "../components/index.module.css"
 import HotelCard from "../components/HotelCard"
 import { fetchHotels } from "../services/core"
 import { HotelAgencyHeader } from "../components/Hotel/HotelAgencyHeader"
+import HotelSearchPage from "../components/HotelSearch/HotelSearch"
+import "../index.css"
 
 const getHighlightedText = (text, highlight) => {
   // Split on highlight term and include term into parts, ignore case
@@ -131,9 +133,15 @@ const IndexPage = () => {
   }
   return (
     <Layout>
-      <div className="container mt-5">
+      <div className="">
+        <div className="Hotel-wrapper">
         <HotelAgencyHeader/>
-        
+        </div>
+        <div className="Hotel-search-wrapper">
+        <HotelSearchPage/>
+        </div>
+       
+
         
         {/* <div className="row mb-4">
           <div className="col-md-10">
