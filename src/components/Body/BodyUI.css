@@ -88,3 +88,15 @@ border-radius: 20px;
   .row{
     margin: 0px!important;
   }
+
+  .main-backgorund{
+    margin-top: -7rem;
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 8rem;
+    padding: 0;
+    line-height: var(--line-height-dense);
+    letter-spacing: -0.01em;
+}

@@ -8,12 +8,13 @@ const BodyUI = () => {
       
 
 <div className='typograph-container'>
-  
+  <div className='text-header-content'></div>
 <h1 className='text-header'>
   Entire city of choice
 </h1>
 
 <div className='main-container-bg'>
+  <div className='main-backgorund'>
 <div className="card-deck">
 <div className="row">
     <div className="col-md-4 mb-3">
@@ -169,6 +170,7 @@ const BodyUI = () => {
     </div>
   </div>
   </div>
+</div>
 </div>
 </div>
 </div>
