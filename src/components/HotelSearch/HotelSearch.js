@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSwimmer, faWifi } from '@fortawesome/free-solid-svg-icons';
+import { faAirFreshener, faBowlFood, faSwimmer, faWifi } from '@fortawesome/free-solid-svg-icons';
 import { Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'react-bootstrap';
 import "./hotelSearch.css"
 import SearchAutoComplete from '../common/SearchAutoComplete';
@@ -29,11 +29,11 @@ const HotelSearchPage = () => {
                                                 Wi-Fi
                                             </div>
                                             <div className='icons text-nowrap'>
-                                            <FontAwesomeIcon color='lightgreen' icon={faSwimmer}  />
+                                            <FontAwesomeIcon color='lightgreen' icon={faAirFreshener}  />
                                                 AC
                                             </div>
                                             <div className='icons text-nowrap'>
-                                            <FontAwesomeIcon color='orange' icon={faSwimmer}  />
+                                            <FontAwesomeIcon color='orange' icon={faBowlFood}  />
                                                 Dinner
                                             </div>
                                         </div>
